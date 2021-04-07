@@ -1,0 +1,29 @@
+*************************************************
+NOTES
+*************************************************
+
+** React is a JavaScript library that acts as the view part in the MVC (Model View Controller Architecture). That is, using React we can create UI components.
+
+** We can create same UI components without writing same codes again and again.
+
+** Virtual DOM : A virtual DOM is a lightweight JavaScript representation of the DOM used in declarative web frameworks such as React, Vue.js, and Elm. Updating the virtual DOM is comparatively faster than updating the actual DOM, since nothing has to be rendered onto the screen. (Refer to the Virtual_DOM.png file for better visualization).
+
+*************************************************
+COMMANDS
+*************************************************
+
+** Important Commands :
+1) Node Version : npm -v
+2) npm & npx version check : npx/npm -v
+
+** Create react app using npx : npm create-react-app reactproject
+
+** Create react app using npm :
+1) npm install -g create-react-app
+2) create-react-app reactproject
+
+*************************************************
+'create-react-app' FILE STRUCTURE
+*************************************************
+
+** package.json : 
