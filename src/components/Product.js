@@ -69,6 +69,10 @@ class Cart extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
+    // prevProps is the previous value of the props before update
+    // prevState is the previous value of the state before update
+    // According to as per our requirement, we can give conditions on previous vlues and current values and make accordign changes after update is done.
+    // for example, we want to perform a task when (prevState.qty !== this.state.qty), then we can do it.
     console.log('component updated');
   }
 

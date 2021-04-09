@@ -76,11 +76,6 @@ React Components let you break up the UI into separate pieces that can then be r
 - State can be changed (mutable)
 - useState Hook -> Functional Component
 - this.state - Class Component
------------------------------------------------------- 
-** Hooks : 
-Hooks are the JavaScript functions, but they impose two additional rules : 
-- Only call Hooks at the top level. Don't call Hooks inside loops, conditions, or nested functions.
-- Only call Hooks from React function components. Don't call Hooks from regular JavaScript functions. (There is just one other valid place to call Hooks - your own custom Hooks.). 
 -------------------------------------------------------
 ** Event Handler : 
 Event Handler handles all the events (e.g: mouse click, keyboard button click, etc). Like using onClick in buttons. In functional components, event handling should be the function name and not function call(function()).
@@ -178,6 +173,29 @@ Methods in Unmounting :
 -------------------------------------------------------
 ** For consumung API, use axios dependency : 
 'npm i axios'.
+------------------------------------------------------ 
+** Hooks : 
+* Hooks are the JavaScript functions, but they impose two additional rules : 
+- Only call Hooks at the top level. Don't call Hooks inside loops, conditions, or nested functions.
+- Only call Hooks from React function components. Don't call Hooks from regular JavaScript functions. (There is just one other valid place to call Hooks - your own custom Hooks.). 
+
+* Hooks are functions that let you "hook into" React state and lifecycle features from function components.
+Hooks allow you to use React without classes. It means you can use state and other React features without writing a class.
+React provides a few built-in Hooks like useState, useEffect etc.
+Hooks are a new addition in React 16.8
+When use Hooks : If you write a function component and realize you need to add some state to it.
+
+* useState : 
+Create and manipulate state in functional component.
+In industry standards, array destructuring is used for useState.
+
+* useEffect : 
+Whenever the element sent by the functional component is rendered, useEffect is automatically called. Whenever the element is created or updated, useEffect is called. useEffect does the same work for functional component as componentDidMount and componentDidUpdate does for class component. Hooks gives us this privilege.
+- useEffect hook method is the lifeCycle method of functional components.
+- useEffect is called automatically both times, when the element is created and when the element is updated.
+------------------------------------------------------ 
+** Context API : 
+Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 *************************************************
 COMMANDS
 *************************************************

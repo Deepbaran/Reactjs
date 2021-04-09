@@ -17,6 +17,12 @@ import './App.css';
 // import Product from './components/Product';
 // import PostList from './components/PostList';
 // import PostForms from './components/PostForm';
+// import Counter from './components/Counter';
+// import HookCounter from './components/HookCounter';
+// import Hookobject from './components/Hookobject';
+// import HookArray from './components/HookArray';
+// import ClassMouse from './components/ClassMouse';
+// import FunctionMouse from './components/FunctionMouse';
 
 /*
 // Creating element using JSX
@@ -98,6 +104,14 @@ class App extends React.Component {
         {/* <Product></Product> */}
         {/* <PostList></PostList> */}
         {/* <PostForms></PostForms> */}
+
+        {/* <Counter></Counter> */}
+        {/* <HookCounter></HookCounter> */}
+        {/* <Hookobject></Hookobject> */}
+        {/* <HookArray></HookArray> */}
+
+        {/* <ClassMouse></ClassMouse> */}
+        {/* <FunctionMouse></FunctionMouse> */}
       </div>
     );
   }
