@@ -196,6 +196,14 @@ Whenever the element sent by the functional component is rendered, useEffect is 
 ------------------------------------------------------ 
 ** Context API : 
 Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+In context API, there are mainly two things, Provider and Consumer. Provider is the one that is sending the data through the Context API and Consumer is the one for whom the data is sent through Context API.
+Provider -> Provides Context API
+Consumer -> Consumes Context API
+We can do the same thing with the help of props. But when a huge number of data needs to be sent down the component tree, Component API makes the work easier and it is used widely in the industry.
+It is very useful.
+Context API helps in passing data without props.
+------------------------------------------------------ 
+** Higher Order Component : 
 *************************************************
 COMMANDS
 *************************************************
