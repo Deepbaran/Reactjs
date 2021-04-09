@@ -7,16 +7,22 @@ import './App.css';
 // import Channel from './components/Channel';
 // import { FunctionClick } from './components/FunctionClick';
 // import { CFunctionClick } from './components/CFunctionClick';
-import Stylesheet from './components/Stylesheet';
-import Inline from './components/Inline';
-import './appstyle.css';
-import Style from './appstyle.module.css';
+// import Stylesheet from './components/Stylesheet';
+// import Inline from './components/Inline';
+// import './appstyle.css';
+// import Style from './appstyle.module.css';
+// import Form from './components/Form';
+// import Routing from './components/Routing';
+// import LifeCycleA from './components/LifeCycleA';
+// import Product from './components/Product';
+// import PostList from './components/PostList';
+// import PostForms from './components/PostForm';
 
+/*
 // Creating element using JSX
-// const name = <span>Hello React</span>;
+const name = <span>Hello React</span>;
 
 // Creating elements using core React
-/*
 const newElement = React.createElement(
   'h2', // Tag name
   { className: 'newElement' }, // Class name
@@ -79,10 +85,19 @@ class App extends React.Component {
         <CFunctionClick roll="22" numbers={numbers} />
         <hr /> */}
 
-        <h1 className={Style.success}>Green</h1>
+        {/* <h1 className={Style.success}>Green</h1>
         <h1 className="error">Red</h1>
         <Stylesheet isvalue={false}></Stylesheet>
-        <Inline></Inline>
+        <Inline></Inline> */}
+
+        {/* <Form></Form> */}
+
+        {/* <Routing></Routing> */}
+
+        {/* <LifeCycleA></LifeCycleA> */}
+        {/* <Product></Product> */}
+        {/* <PostList></PostList> */}
+        {/* <PostForms></PostForms> */}
       </div>
     );
   }
