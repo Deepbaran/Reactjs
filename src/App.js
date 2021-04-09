@@ -23,7 +23,10 @@ import './App.css';
 // import HookArray from './components/HookArray';
 // import ClassMouse from './components/ClassMouse';
 // import FunctionMouse from './components/FunctionMouse';
-import A from './components/A';
+// import A from './components/A';
+import Ajay from './components/Ajay';
+import Vikas from './components/Vikas';
+import Sushant from './components/Sushant';
 
 /*
 // Creating element using JSX
@@ -114,7 +117,11 @@ class App extends React.Component {
         {/* <ClassMouse></ClassMouse> */}
         {/* <FunctionMouse></FunctionMouse> */}
 
-        <A></A>
+        {/* <A></A> */}
+
+        <Ajay></Ajay>
+        <Vikas></Vikas>
+        <Sushant></Sushant>
       </div>
     );
   }

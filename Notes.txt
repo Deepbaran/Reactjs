@@ -204,6 +204,13 @@ It is very useful.
 Context API helps in passing data without props.
 ------------------------------------------------------ 
 ** Higher Order Component : 
+HOC is an advanced technique in React for reusing component logic. HOCs are not part of the React API. They are a pattern that emerges from React's compositional nature.
+Concretely, a HOC is a function that takes a component and returns a new component.
+Syntax : 
+'const EnhancedComponent = higherOrderComponent(WrappedComponent);'
+We use HOC in order to share common functionality between components.
+We will pass our component to the function, we will do some enhance and then we will return the enhanced fuction.
+HOC is useful for adding additional addons on the current component.
 *************************************************
 COMMANDS
 *************************************************
