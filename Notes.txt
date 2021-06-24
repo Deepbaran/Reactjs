@@ -289,3 +289,24 @@ IMPORTANT TERMS
 1) It is a performance relayer that allows you to measure and analyze the performance of your application using different metrics.
 2) Web Vitals are a set of useful metrics that aim to capture the user experience of a web page.
 3) In Create React App, a third-party library is used to measure these metrics (web-vitals).
+
+*************************************************
+HOST A REACT APP ON A ENTERPRISE SERVER [https://create-react-app.dev/docs/deployment/#github-pages]
+*************************************************
+
+* STEPS: [STEPS TO HOST THE REACT APP ON TOMCAT]
+1. add {"homepage": "localhost:8080/<appname>"} in package.json
+2. run "npm run build" in the cmd. This will create a optimized build bundle of the project.
+3. Go to Tomcat webapps folder.
+4. Create a new folder in the Tomcat webapps directory with the name <appname>.
+5. Copy paste all the files, in the newly created optimized build bundle, into the <appname> folder under Tomcat webapps directory.
+6. Start the Tomcat server and go to "localhost:8080/<appname>" url.
+
+*************************************************
+TO FETCH DATA FROM A LOCAL SERVER OR FROM THE SAME SERVER
+*************************************************
+
+* STEPS: [Fetch form a API hosted on Tomcat]
+1. Add {"proxy": "http://localhost:8080/<API_appname>/rest(for rest api)/"} in package.json
+2. Use the sub domain of the API {/<subdomain>} in axios.fetch, to fetch the API form the server.
+3. Use res.data to get the data from axios.fetch("/<subdomain>").then(res => {var a = res.data})
