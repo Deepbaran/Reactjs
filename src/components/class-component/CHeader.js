@@ -1,5 +1,5 @@
 import React from 'react';
-import Testing from './Testing';
+import Testing from '../key/Testing';
 
 // Class component
 class CHeader extends React.Component {
